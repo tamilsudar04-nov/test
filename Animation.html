@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Animation.html">
+    </head>
+    <body>
+       <style>
+        *{
+          text-align: center;
+          margin-top: 100px;
+           
+        }
+       .a1{
+         border:solid 8px; border-color:rgb(13, 174, 237);
+          padding: 10px;
+          animation-name:apple;
+          animation-duration: 2s;
+       }
+       @keyframes apple {
+        from { border-color:rgb(13, 174, 237);}
+        to {border-color:black;}
+       }
+       .a2{
+        border:solid 8px rgb(13, 174, 237) ;
+          padding: 10px;
+          animation-name:mango;
+          animation-duration: 4s;     
+       }
+       @keyframes mango {
+        50% {border-color: red;}
+        100% {border-color: black;}
+        
+       }
+       .a3{
+        border:solid 8px rgb(13, 174, 237);
+          padding: 10px;
+          animation-duration: 4s;
+          animation-name:tamil;
+          position:relative;
+       }
+       @keyframes tamil{
+        0% {border-color: blue; left: 0; top: 0;}
+        25% {border-color: navy; left: 100px;top:0;}
+        50% {border-color: purple;left: 100px; top:100px;}
+        75% {border-color: blueviolet; left: 0; top: 100px;}
+        100% {border-color: orchid; left: 0; top: 0;}
+       }
+       .a4{
+        border:solid 8px rgb(13, 174, 237) ;
+          padding: 10px;
+          animation-name: deepan;
+          animation-duration:1s;
+          animation-delay: 2s;
+       }
+       @keyframes deepan {
+        from {border-color: rgb(13, 174, 237) ;}
+        to {border-color: black;}
+       }
+       .a5{
+        border:solid 8px rgb(13, 174, 237) ;
+          padding: 10px;
+          position: relative;
+          animation-name: niddesh;
+          animation-iteration-count: 2;
+          animation-duration: 4s;
+       }
+       @keyframes niddesh{
+         0% {border-color: blue; left: 0; top: 0;}
+        25% {border-color: navy; left: 150px;top:0;}
+        50% {border-color: purple;left: 150px; top:150px;}
+        75% {border-color: blueviolet; left: 0; top: 150px;}
+        100% {border-color: orchid; left: 0; top: 0;}
+       }
+       .a6{
+        border:solid 8px rgb(13, 174, 237) ;
+          padding: 10px;
+         animation-name: mohan;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          position: relative;
+       }
+       @keyframes mohan{
+        0% {border-color:red; left: 0; top: 0;}
+        25% {border-color:yellow; left: 150px;top:0;}
+        50% {border-color: red;left: 150px; top:150px;}
+        75% {border-color: yellow; left: 0; top: 150px;}
+        100% {border-color:red  ; left: 0; top: 0;}
+       }
+       .a7{
+        border:solid 8px rgb(13, 174, 237) ;
+          padding: 10px;
+           animation-name:suguna;
+          animation-duration: 4s;
+          animation-iteration-count:2;
+          position: relative;
+          animation-direction: alternate;
+       }
+       @keyframes suguna{
+        0% {border-color:red; left: 0; top: 0;}
+        25% {border-color:yellow; left: 150px;top:0;}
+        50% {border-color: red;left: 150px; top:150px;}
+        75% {border-color: yellow; left: 0; top: 150px;}
+        100% {border-color:red  ; left: 0; top: 0;}
+       }
+       
+       .a8{
+        border:solid 8px rgb(13, 174, 237) ;
+          padding: 10px;
+          animation-name:jeeva;
+          animation-duration: 4s;
+          animation-iteration-count:2;
+          position: relative;
+          animation-direction:reverse;
+       }
+       @keyframes jeeva{
+        0% {border-color:red; left: 0; top: 0;}
+        25% {border-color:yellow; left: 150px;top:0;}
+        50% {border-color: red;left: 150px; top:150px;}
+        75% {border-color: yellow; left: 0; top: 150px;}
+        100% {border-color:red  ; left: 0; top: 0;}
+       }
+       .a9{
+        border:solid 8px rgb(13, 174, 237) ;
+          padding: 10px;
+          animation-name:maha;
+          animation-duration: 4s;
+          animation-iteration-count:4;
+          position: relative;
+          animation-direction:alternate-reverse;
+       }
+       @keyframes maha{
+        0% {border-color:red; left: 0; top: 0;}
+        25% {border-color:yellow; left: 150px;top:0;}
+        50% {border-color: red;left: 150px; top:150px;}
+        75% {border-color: yellow; left: 0; top: 150px;}
+        100% {border-color:red  ; left: 0; top: 0;}
+       }
+
+
+
+
+
+
+       </style> 
+
+
+
+
+
+
+<h1>ANIMATION</h1>
+<h2>1. keyframes : from and to</h2><br>
+ <img class="a1" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><hr>
+ <h2>2. keyframes : percentage </h2><br>
+ <img class="a2" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><hr>
+ <h2>3. keyframes :4 percentage </h2>
+ <img class="a3" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><hr>
+ <h2>4. keyframes : Animation-delay</h2>
+ <img class="a4" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><hr>
+ <h2>5. keyframes : animation-iteration-count</h2><br>
+ <img class="a5" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><hr>
+ <h2>6. keyframes : animation-iteration-count(infinite)</h2><br>
+ <img class="a6" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><br><br><br><hr><br>
+ <h2> 7.keyframes : animation direction (alternative)</h2><br>
+ <img class="a7" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><br><br><br><hr>
+ <h2> 8. keyframes : animation direction(reverse)</h2><br>
+ <img class="a8" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><br><br><br><hr><br>
+ <h2>9. keyframes : animation direction(alternative reverse)</h2><br>
+ <img class="a9" src="shin chan.jpg" alt="shin chan" height="200px" width="200px"><br><br><br><br><hr><br>
+ 
+ 
+
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
